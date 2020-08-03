@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Spring</title>
+	
+	<style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+		}
+		#header{
+         
+        height: 300px;
+        background-image: url(photo/banner.jpg);
+		background-repeat: no-repeat;
+		background-position:center;
+		}
+		#nav ul{
+			list-style-type: none;
+		}
+		#nav li{
+			 float: left;
+			 padding: 20px;
+			 margin-right: 150px;
+
+		}
+		#nav{
+            border-top: 1px solid white;
+            border-left:1px solid white;
+            border-right: 1px solid white;
+            border-bottom: 1px solid black; 
+            height: 80px;
+		}
+		.spring{
+			margin-left:250px;
+			border-right: 1px solid black;
+
+		}
+		.new{
+			border-radius: 10px;
+			border: 1px solid black;
+			background-color: blue;
+			color: white;
+            width: 70px;
+            height: 20px;
+		}
+		
+		#content{
+			margin-left: 50px;
+			}
+		#content h2{
+			padding-left: 50px;
+		}
+		#content table{
+			text-align: center;
+
+		}
+		#content th{
+			border: 1px solid gainsboro;
+			padding: 15px;
+			
+		}
+		#content1{
+			margin-left: 100px;
+			margin-right: 100px;
+			}
+		
+		#content1 table{
+			text-align: center;
+
+		}
+		#content1 th{
+			border: 1px solid gainsboro;
+			padding: 15px;
+			
+		}
+		.comm{
+			border: 1px solid black;
+			background-color: black;
+			color: lightblue;
+			width: 500px;
+			height: 200px;
+			padding: 15px;
+           
+		}
+		
+
+
+	#para{
+			
+			color: black;
+			font-size: 18px;
+			width: 300px;
+			height: 150px;
+			border: 1px solid white;
+		}
+		#para h1{
+			font-size: 30px;
+			font-style: bold;
+		}
+		.object ul{
+			list-style-type: none;
+		}
+		.object li{
+			float: left;
+			padding: 30px;
+		}
+		#footer{
+        padding: 20px;
+        padding-top: 0px;
+        height: 200px;
+		}
+		#footer ul{
+			list-style-type: none;
+		}
+		#footer li{
+			float: left;
+			border: 1px solid white;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<div id="header">
+		
+	</div>
+	<div id="nav">
+		<ul>
+			<li class="spring"> <b class="new">New </b> &nbsp; <a href="#">Announcing The NEW Spring Website !</li></a>
+			<li><a href="#">SpringOne 2020 goes virtual</li></a>
+		</ul>
+	</div>
+	<div id="content">
+		<h2> What Spring can do</h2>
+		
+	<table cellspacing="10px">
+		<tr>
+			<th><img src="photo/microservices.jpg" width="100px" height="100px">
+		<h3>Microservices</h3>
+		Quickly deliver procuction-grade
+		 features with independently evolvable 
+		microservices.</th>
+			<th><img src="photo/reactive.jpg" width="100px" height="100px">
+		<h3>Reactive</h3>
+		Spring's asynchronous, nonblocking architecture means you can get more form your computing resources.</th>
+			<th><img src="photo/cloud.png" width="100px" height="100px">
+		<h3>Cloud</h3>
+		Your code, any cloud -we've got you covered. Connect and scale your services, whatever your platform.</th>
+			<th><img src="photo/webapp.png" width="100px" height="100px">
+		<h3>Web apps</h3>
+		Frameworks for fast, secure, and responsive web applicatins connected to any data store.</th>
+		</tr>
+         </table>
+         <div id="content1">
+         <table cellspacing="10px">
+		<tr>
+			<th><img src="photo/serverless.png" width="100px" height="100px">
+		<h3>Serverless</h3>
+		The ultimate flexibility. Scale up on demand and scale to zero when there's no demand.</th>
+		<th><img src="photo/eventdriven.png" width="100px" height="100px">
+		<h3>Event Driven</h3>
+		Integrate with your enterprise. React to bussiness events. Act on you streaming data in realtime.</th>
+		<th><img src="photo/batch.png" width="100px" height="100px">
+		<h3>Batch</h3>
+		Automated tasks. Offline processing of data at a time to suit you.</th>
+		</tr>
+	</table>
+	</div>
+	<div class="object">
+	<ul>
+	<li>	<div class="comm">
+		<div>
+		@SpringBootApplication<br>
+        @RestController<br>
+        public class DemoApplication {<br>
+
+        @GetMapping("/helloworld")<br>
+        public String hello() { <br>
+       return "Hello World!";<br>
+        } <br>
+        } 
+	
+	</div></div></li>
+	<li>
+	<div id="para">
+		<h1>Level up your Java code</h1>
+With <a href="#">Spring </a>Boot in your app, just a few lines of code is all you need to start building services like a boss.
+New to Spring? Try our simple <a href="#">quickstart guide.</a>
+	</div></li>
+</ul>
+</div>		
+		
+	
+	<div id="footer">
+	<ul>
+		<li><img src="photo/spring.png" width="300px" height="150px"><br>&copy; 2020 VMware, Inc. or its affiliates. Terms of Use  Privacy  Trademark Guidelines <br>
+Apache&reg;, Apache Tomcat&reg;, Apache Kafka&reg;, Apache Cassandra, and Apache Geode are trademarks or registered<br> trademarks of the Apache Software Foundation in the United States and/or other countries. Java, Java SE, Java EE, and OpenJDK are<br> trademarks of Oracle and/or its affiliates. Kubernetes&reg; is a registered trademark of the Linux Foundation in the United<br> States and other countries. Linux&reg; is the registered trademark of Linus Torvalds in the United States and other countries.<br> Windows&reg; and Microsoft&reg; Azure are registered trademarks of Microsoft Corporation. &quot;AWS&quot; and &quot;Amazon Web <br>Services&quot; are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and <br>copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.</li>
+		<li>
+			
+				<img src="photo/play.png" width="50px" height="50px">
+				<img src="photo/github.png" width="50px" height="50px">
+				<img src="photo/twitter.png" width="60px" height="60px">
+			
+		</li>
+	</ul>	
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discount Price Calculation</title>
+	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+function Calculation(){
+                       
+    var sale_price = document.getElementById('input_sale').value;
+	var dis_price = document.getElementById('input_discount').value;
+	var outputContxt = document.getElementById('content'); 
+	var discount=sale_price*(dis_price/100);
+	var payPrice=sale_price-discount;
+	var savePrice=sale_price-payPrice;
+	outputContxt.innerHTML=
+	"Sale Price ="+ sale_price+ "kyats" + "<br>" +
+	"Discount ="+ dis_price + "%"+"<br>" +
+	 "Pay after the discount =" + payPrice + "kyats"+"<br>" +
+	"The money you saved ="  +savePrice+ "kyats";
+	  outputContxt.style.backgroundColor="aqua";
+	  outputContxt.style.color="salmon";
+	  outputContxt.style.padding="20px";
+	  outputContxt.style.fontSize="20px";
+	  
+
+}
+        </script>
+
+</head>
+<body>
+<div >
+        	<p>
+        		<input id="input_sale" type="number" placeholder="Sale Price" />
+        	</p>
+        	  <p>
+        		<input id="input_discount" type="number" placeholder="Discount Price or %" />
+        	</p>
+        	<p>
+        		<button id="button_print" type="button" onclick="Calculation()"> Show Result</button>
+        	</p>
+        </div>
+        <div id="content">
+        	
+        </div>
+        
+</body>
+</html>
