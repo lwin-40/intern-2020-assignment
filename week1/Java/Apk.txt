@@ -1,0 +1,9 @@
+
+superMethod function call ခေါ်ရင် obj name ကို . ခံပီးခေါ်ပေးရတယ်။ so I solved it myApk.superMethod();
+return ကို ultraMethod call ခေါ်တဲ့အခါ variable အနေနဲ့မသုံးပဲ return type အနေနဲ့သုံးထားတယ်။ 
+ဒါ ကြောင့် result ကို return နေရာမာအစားသုံးလိုက်တယ်။ integer type declare မလုပ်ပဲ string type declare လုပ်ခဲ့တယ်။ ultraMethod function call ခေါ်ရင် obj name ကို . ခံပီးခေါ်ပေးရတယ်။ string declare လုပ်ထားလို့ ultraMethod function ထဲမာ string value null ထည့်ပေးလိုက်တယ်။ I solved  myApk.ultdraMethod("");
+superMethod functionသည် voidသုံးထားလို့ return မပြန်ဘူး။ so return ကိုဖြုတ်ခဲ့သည်။
+hyperMethod function သည် primitive datatype ဆိုတော့ return ပြန်ရမယ်။ return ပြန်တာမတွေ့လို့ void ပြောင်းသုံးခဲ့တယ်။
+ultraMethod function ကို string datatype declare လုပ်ပီး return integer type ဖစ်နေလို့ အပေါ်မာ declare လုပ်ထားတဲ့ string variable ကို return ပြန်ပေးလိုက်တယ်။
+
+

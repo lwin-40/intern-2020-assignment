@@ -1,0 +1,9 @@
+array create လုပ် value assign ထည့်
+biggestNumber  ကို integer type declare လုပ် biggestNumber function ကို assign လုပ်
+smallestNumber  ကို integer type declare လုပ် smallestNumber function ကို assign လုပ်
+biggestNumber functionထဲမာ biggest variable  ကို integer type declare လုပ်ပီး minimum value assign ထည့်ထားမယ်။
+initial 0 ထားမယ် while loop မာ initialဟာ arraylengthထက်ငယ်နေသရွေ့အလုပ်လုပ်
+biggest ကို minimum ထားထားလို့ သူက array index ထဲက  minimum possible integer value  တွေကို store လုပ်ပေးထားတယ် သူနဲ့ array index ထဲက value တိုက်စစ်လို့ ငယ်တယ်ဆို array index ထဲက value ကို သူ့ထဲထည့် output ထုတ်
+smallestNumber functionထဲမာ smallest variable  ကို integer type declare လုပ်ပီး maximum value assign ထည့်ထားမယ်။
+initial 0 ထားမယ် while loop မာ initialဟာ arraylengthထက်ငယ်နေသရွေ့အလုပ်လုပ်
+smallest ကို maximum ထားထားလို့ သူက array index ထဲက  maximum possible integer value  တွေကို store လုပ်ပေးထားတယ် သူနဲ့ array index ထဲက value တိုက်စစ်လို့ ကြီးတယ်ဆို array index ထဲက value ကို သူ့ထဲထည့် output ထုတ်

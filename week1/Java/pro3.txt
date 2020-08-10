@@ -1,0 +1,12 @@
+main method ထဲမှာ valueOne ဆိုသည့် variable ကို integer datatype သုံးပီး declare လုပ်မယ် ပီးရင် ၁၀ ဆိုတဲ့ value ကို assign လုပ်မယ်။ valueTwo ဆိုသည့် variable ကို integer datatype သုံးပီး declare လုပ်မယ် ပီးရင် ၅ ဆိုတဲ့ value ကို assign လုပ်မယ်။ 
+calculator object တစ်ခုကို create လုပ်မယ် myCalculator နာမည်နဲ့ ။ 
+addResult ဆိုတဲ့ variable ကို integer datatype သုံးပီး declare လုပ်မယ်။ myCalclator object ကနေ add function ကို method call ခေါ်မယ် method ထဲမှာ paramether ၂ ခု ကိုထဲ့မယ် အပေါ်မာ declare ထားတဲ့ integer ၂ ခုကို ။ အာ့ကို addResult ထဲ  assign လုပ်မယ်။
+subValue ဆိုတဲ့ variable ကို integer datatype သုံးပီး declare လုပ်မယ်။ myCalclator object ကနေ sub function ကို method call ခေါ်မယ် method ထဲမှာ paramether ၂ ခု ကိုထဲ့မယ် အပေါ်မာ declare ထားတဲ့ integer ၂ ခုကို ။ အာ့ကို subValue ထဲ  assign လုပ်မယ်။
+mulValue ဆိုတဲ့ variable ကို integer datatype သုံးပီး declare လုပ်မယ်။ myCalclator object ကနေ sub function ကို method call ခေါ်မယ် method ထဲမှာ paramether ၂ ခု ကိုထဲ့မယ် အပေါ်မာ declare ထားတဲ့ integer ၂ ခုကို ။ အာ့ကို mulValue ထဲ  assign လုပ်မယ်။
+divValue ဆိုတဲ့ variable ကို integer datatype သုံးပီး declare လုပ်မယ်။ myCalclator object ကနေ div function ကို method call ခေါ်မယ် method ထဲမှာ paramether ၂ ခု ကိုထဲ့မယ် အပေါ်မာ declare ထားတဲ့ integer ၂ ခုကို ။ အာ့ကို divValue ထဲ  assign လုပ်မယ်။
+add ဆိုပီး  output ထုတ်ပေးမယ်။ sub ဆိုပီး  output ထုတ်ပေးမယ်။ mul ဆိုပီး  output ထုတ်ပေးမယ်။ div ဆိုပီး  output ထုတ်ပေးမယ်။
+Calculator class ထဲမာဆိုရင်တော့ function 4 ခုရှိတယ်။ 
+add function ထဲမှာ method call  ခေါ်တုန်းကသုံးထားတဲ့ parameter တွေကို variable အနေနဲ့ ပြန် assign လုပ်။ variable ၂ ခုကို ပေါင်းပေးပီး return ပြန်ပေးတယ်။
+sub function ထဲမှာ method call  ခေါ်တုန်းကသုံးထားတဲ့ parameter တွေကို variable အနေနဲ့ ပြန် assign လုပ်။ variable ၂ ခုကိုနှုတ်ပေးပီး return ပြန်ပေးတယ်။
+mul function ထဲမှာ method call  ခေါ်တုန်းကသုံးထားတဲ့ parameter တွေကို variable အနေနဲ့ ပြန် assign လုပ်။ variable ၂ ခုကို မြောှက်ပေးပီး return ပြန်ပေးတယ်။
+div function ထဲမှာ method call  ခေါ်တုန်းကသုံးထားတဲ့ parameter တွေကို variable အနေနဲ့ ပြန် assign လုပ်။ variable ၂ ခုကို စားပေးပီး စားလဒ် return ပြန်ပေးတယ်။

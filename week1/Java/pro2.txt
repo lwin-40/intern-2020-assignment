@@ -1,0 +1,4 @@
+star pattern က row ၅ခုပါလို့ အရင်ဆုံး outer loop ကို initial 0 ထားမယ်။ initial ဟာ မ သူ output ထုတ်မယ့် row 5 ခုထက်ငယ်နေသရွေ့အလုပ်လုပ်မယ်။ initial ကို ၁ တိုးသွားမယ်။
+column output ထုတ်မို့ inner loop မာ initial ကို 0 ထားမယ်။ initial ဟာ outer loop initial နဲ့ ညီပီး ငယ်နေသရွေ့အလုပ်လုပ်မယ်။ outer initial ကို ၁ တိုးမယ်။
+* pattern ကို output ထုတ်မယ်။
+inner loop က ထွက်လာရင် outer loop က row တစ်ခုတိုင်းကို ending line ဆင်းပေးမယ်။
