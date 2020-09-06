@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<head>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: mediumseagreen;
+	color: white;
+	height: 50px;
+	padding: 20px;
+}
+
+#header sub {
+	background-color: gold;
+	color: black;
+}
+
+#form {
+	width: 400px;
+	height: 310px;
+	border: 1px solid gainsboro;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 150px;
+}
+
+#content {
+	padding-left: 20px;
+}
+
+.button {
+	text-align: center;
+	background-color: mediumseagreen;
+	height: 30px;
+	padding: 10px;
+}
+
+.inputfield {
+	width: 250px;
+	height: 30px;
+}
+
+#footer {
+	background-color: mediumseagreen;
+	color: white;
+	height: 50px;
+	padding: 15px;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>
+			Course Registration Online System <sub> (CRO )</sub>
+		</h1>
+	</div>
+	<div id="form">
+		<div class="button">Login</div>
+		<br>
+
+		<form id="content" method="post" action="studentLogin.html">
+
+			<label>Email</label><br> <input type="text" id="email"
+				placeholder="email" class="inputfield" required><br>
+			<br> <label>Password</label><br> <input type="password"
+				id="password" placeholder="password" class="inputfield" required><br>
+			<br>
+			<center>
+				<input type="submit" value="Login" class="button">
+			</center>
+		</form>
+	</div>
+	<div id="footer">
+		<h3>&copy;&nbsp;Dekastan State University (Civities Universities Dekastan )</h3>
+	</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: mediumseagreen;
+	color: white;
+	height: 50px;
+	padding: 20px;
+}
+
+#header sub {
+	background-color: gold;
+	color: black;
+}
+
+#content form {
+	width: 800px;
+	height: 395px;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	clear: both;
+}
+
+#content h2 {
+	padding-left: 250px;
+}
+
+#right_content {
+	float: left;
+	padding-left: 20px;
+}
+
+#left_content {
+	float: left;
+}
+
+.button {
+	text-align: center;
+	background-color: mediumseagreen;
+	height: 30px;
+	padding: 10px;
+	clear: both;
+}
+
+.inputfield {
+	width: 350px;
+	height: 30px;
+}
+
+#footer {
+	background-color: mediumseagreen;
+	color: white;
+	height: 50px;
+	padding: 15px;
+}
+</style>
+
+</head>
+<body>
+	<div id="header">
+		<h1>
+			Course Registration Online System <sub> (CRO )</sub>
+		</h1>
+	</div>
+	<div id="content">
+		<h2>Student Account Register</h2>
+		<form method="post" action="register.html">
+			<div id="left_content">
+				<label>Name</label><br> <input type="text" id="name"
+					placeholder="name" class="inputfield"><br>
+				<br> <label>Email</label><br> <input type="text"
+					id="email" placeholder="email" class="inputfield" required><br>
+				<br> <label>Mobile</label><br> <input type="tel"
+					id="phone" name="phone" class="inputfield" required><br>
+				<br>
+			</div>
+			<div id="right_content">
+				<label>Email</label><br> <input type="text" id="studentId"
+					placeholder="student id" class="inputfield"><br>
+				<br> <label>Password</label><br> <input type="password"
+					id="password" placeholder="password" class="inputfield" required><br>
+				<br> <label>Password</label><br> <input type="password"
+					id="confirmpassword" placeholder="confirm password"
+					class="inputfield" required><br>
+				<br>
+			</div>
+			<center>
+				<input type="submit" value="Register" class="button"">
+			</center>
+		</form>
+	</div>
+	<div id="footer">
+		<h3>&copy;&nbsp;Dekastan State University (Civities Universities Dekastan )</h3>
+	</div>
+
+</body>
+</html>

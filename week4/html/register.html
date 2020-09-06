@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="style.css">
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: mediumseagreen;
+	color: white;
+	height: 50px;
+	padding: 20px;
+}
+
+#header sub {
+	background-color: gold;
+	color: black;
+}
+
+#content {
+	
+	clear: both;
+}
+
+#left_content {
+	float: left;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+#right_content {
+	float: left;
+	padding-left: 500px;
+	padding-top: 20px;
+}
+
+#main_content {
+	clear: both;
+	border: 1px solid gainsboro;
+	margin: 30px;
+	height: 280px;
+}
+
+#left_innerContent {
+	float: left;
+	padding-left: 20px;
+}
+
+#right_innerContent {
+	float: left;
+	padding-left: 400px;
+}
+
+#submitButton {
+	float: right;
+	padding-top: 10px;
+	color: black;
+	clear: both;
+}
+
+.inputfield {
+	width: 1200px;
+	height: 25px;
+}
+
+.inputfield1 {
+	width: 650px;
+	height: 25px;
+}
+
+#footer {
+	background-color: mediumseagreen;
+	color: white;
+	height: 50px;
+	padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+	<div id="header">
+		<h1>
+			Course Registration Online System <sub> (CRO )</sub>
+		</h1>
+	</div>
+
+	<div id="content">
+		<div id="left_content">
+			John Done <br> <br> NVE-4472<br> <br>
+			+21043567934<br>
+			<br> johndone@dkus@edu
+		</div>
+		<div id="right_content">
+			83 of 120 Credit<br>
+			<br> Undergraduate
+		</div>
+	</div>
+	<form method="post" action="screenrecord.html">
+		<div id="main_content">
+			<div
+				style="background-color: mediumseagreen; color: white; font-weight: bold; padding: 15px;">Registeration
+			</div>
+			<div style="padding: 20px">
+				Department <br> <select id="department" class="inputfield">
+					<option></option>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select><br>
+				<br> Course<br> <select id="course" class="inputfield">
+					<option></option>
+					<option value="language">SK103 - Literature in Sanskrit
+						Language</option>
+					<option value="historical">SK428 - Historical Survey of
+						Sanskrit Literature</option>
+					<option value="methodology">SK102 - Methodology of
+						Sanskrit General</option>
+					<option value="literature">PL332 - Pali Sutta Literature</option>
+				</select>
+			</div>
+			<div id="left_innerContent">
+				Semester<br> <input type="radio" id="winter" value="winter">
+				<label for="winter">Winter</label> <input type="radio" id="summer"
+					value="summer"> <label for="summer">Summer</label>
+			</div>
+			<div id="right_innerContent">
+				Year<br> <select id="year" class="inputfield1">
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					
+				</select>
+			</div>
+			<div id="submitButton">
+				<input type="submit" value="Summit Registeration"
+					style="background-color: mediumseagreen; padding: 5px;">
+			</div>
+
+		</div>
+
+	</form>
+
+	<div id="footer">
+		<h3>&copy;&nbsp;Dekastan State University (Civities Universities Dekastan )</h3>
+	</div>
+
+</body>
+</html>
