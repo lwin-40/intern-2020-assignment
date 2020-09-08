@@ -22,7 +22,7 @@ body {
 	color: black;
 }
 
-#form {
+#left_form {
 	width: 400px;
 	height: 310px;
 	border: 1px solid gainsboro;
@@ -30,8 +30,38 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 	margin-bottom: 150px;
+	float:left;
+}
+#right_form{
+float:left;
+padding-left:10px;
+height:310px;
+}
+#right_form form{
+border: 1px solid gainsboro;
+padding:30px;
+}
+#right_content {
+	float: left;
+	padding-left: 20px;
 }
 
+#left_content {
+	float: left;
+}
+
+.button {
+	text-align: center;
+	background-color: mediumseagreen;
+	height: 30px;
+	padding: 10px;
+	clear: both;
+}
+
+.login_inputfield {
+	width: 350px;
+	height: 30px;
+}
 #content {
 	padding-left: 20px;
 }
@@ -42,9 +72,11 @@ body {
 	height: 30px;
 	padding: 10px;
 }
-
+.button:hover{
+background-color: white;
+}
 .inputfield {
-	width: 250px;
+	width: 400px;
 	height: 30px;
 }
 
@@ -53,30 +85,59 @@ body {
 	color: white;
 	height: 50px;
 	padding: 15px;
+	clear:both;
 }
 </style>
 </head>
 <body>
 	<div id="header">
-		<h1>
+		<h1 >
 			Course Registration Online System <sub> (CRO )</sub>
 		</h1>
 	</div>
-	<div id="form">
-		<div class="button">Login</div>
+	<div id="left_form">
+		<div style="height: 30px;padding: 10px;background-color: mediumseagreen;text-align: center;">Login</div>
 		<br>
 
-		<form id="content" method="post" action="studentLogin.html">
+		<form id="content" method="post" action="register.html">
 
 			<label>Email</label><br> <input type="text" id="email"
-				placeholder="email" class="inputfield" required><br>
+				placeholder="email" class="login_inputfield " required><br>
 			<br> <label>Password</label><br> <input type="password"
-				id="password" placeholder="password" class="inputfield" required><br>
+				id="password" placeholder="password" class="login_inputfield " required><br>
 			<br>
 			<center>
 				<input type="submit" value="Login" class="button">
 			</center>
 		</form>
+	</div>
+	<div id="right_form">
+	<h2 style="text-align: center;">Student Account Register</h2>
+		<form method="post" action="register.html">
+			<div id="left_content">
+				<label>Name</label><br> <input type="text" id="name"
+					placeholder="name" class="inputfield"><br>
+				<br> <label>Email</label><br> <input type="text"
+					id="email" placeholder="email" class="inputfield" required><br>
+				<br> <label>Mobile</label><br> <input type="tel"
+					id="phone" name="phone" class="inputfield" required><br>
+				<br>
+			</div>
+			<div id="right_content">
+				<label>Email</label><br> <input type="text" id="studentId"
+					placeholder="student id" class="inputfield"><br>
+				<br> <label>Password</label><br> <input type="password"
+					id="password" placeholder="password" class="inputfield" required><br>
+				<br> <label>Password</label><br> <input type="password"
+					id="confirmpassword" placeholder="confirm password"
+					class="inputfield" required><br>
+				<br>
+			</div>
+			<center>
+				<input type="submit" value="Register" class="button"">
+			</center>
+		</form>
+	
 	</div>
 	<div id="footer">
 		<h3>&copy;&nbsp;Dekastan State University (Civities Universities Dekastan )</h3>
